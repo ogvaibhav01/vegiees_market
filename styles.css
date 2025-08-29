@@ -134,11 +134,64 @@ body{
   font-size: 1rem;
   color: #555;
 }
-.fourth {
-  background-color: #F9FAF8;
-  text-align: center;
-  padding: 60px 20px;
+.fourth{
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding-top: 100px;
+    padding-bottom: 180px;
 }
+.inner_fourth {
+  background-color: #3b82f6;
+  padding: 50px 70px;
+  color: white;
+  display: flex;
+  
+  width: 1000px;
+  height: 100px;
+  border-radius: 20px;
+  flex-direction: row; 
+}
+.sideby {
+  display: flex;
+  flex-direction: row; /* ← This is the key fix */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.merge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+}
+
+
+.c2a{
+    color: #F9FAF8;
+    font-size: 28px;
+    font-family: roboto;
+    font-weight: 900;
+}
+.nextpara{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.button_two {
+  margin-left: auto; /* Pushes button to the right */
+}
+.button_two button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  /* border-color: #E5E7EB; */
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 5px solid #E5E7EB;
+  cursor: pointer;
+}
+
 .fifth{
      padding-top: 30px;
      padding-bottom: 30px;
@@ -149,3 +202,4 @@ body{
   color: #E5E7EB;
   font-size: 20px;
 }
+
