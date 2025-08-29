@@ -1,7 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+body{
+    margin: 0%;
+    padding: 0%;
 }
 .header{
     background-color: #1F2937;
@@ -32,7 +31,7 @@
    background-color: #1F2937;
     display: flex;
     box-sizing: border-box;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 220px;
     padding-right: 220px;
     justify-content: space-between;
@@ -40,12 +39,12 @@
 }
 .about{
       font-size: 48px;
+      font-family: roboto;
       color: #F9FAF8;
       font-weight: 900;
 }
 .Info{
     font-size: 18px;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     color: #E5E7EB;
@@ -67,12 +66,13 @@
 }
 .Second {
   padding: 60px;
-  background-color: #f9f9f9;
+  padding-top: 10px;
+  background-color: #F9FAF8;
   text-align: center;
 }
 
-.info_header p {
-  font-size: 1.8rem;
+.info_header p{
+  font-size: 36px;
   font-weight: bold;
   margin-bottom: 40px;
 }
@@ -112,4 +112,40 @@
     align-items: center;
     width: 240px;
     color: grey;
+}
+.box_pad{
+    padding-left: 30px;
+}
+.third {
+  background-color: #e5e7eb;
+  padding: 60px 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.quote-text {
+  font-size: 1.6rem;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.quote-author {
+  font-size: 1rem;
+  color: #555;
+}
+.fourth {
+  background-color: #F9FAF8;
+  text-align: center;
+  padding: 60px 20px;
+}
+.fifth{
+     padding-top: 30px;
+     padding-bottom: 30px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #E5E7EB;
+  font-size: 20px;
 }
